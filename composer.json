@@ -1,0 +1,25 @@
+{
+    "name": "son/mvc",
+    "require": {
+        "php": ">5.3"
+    },
+
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Vinicius Lucena",
+            "email": "v-lucena@outlook.com"   
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "SON" : "vendor",
+            "app" : "/"
+        }
+    },
+
+    "config": {
+        "bin-dir" : "bin"
+    }
+}
